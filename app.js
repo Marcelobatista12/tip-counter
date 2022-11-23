@@ -18,7 +18,7 @@ if(ten.checked){
             result.innerHTML=value
 }
 }
-function increase (){
+function increaseSize (){
     btn.style.width="150px"
     btn.style.background="green"
 }
