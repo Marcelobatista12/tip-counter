@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+   <div id="form">
+    <label for = "total"> How much is your total ?</label>
+    <input type="text" id="total" placeholder="type here">
+  <p>How much percent will your tip be ?</p>
+  <input type="radio" id="ten" name="tips" value="ten">
+  <label for="ten">10%</label>
+  <input type="radio" id="fifteen" name="tips" value="fifteen">
+  <label for="fifteen">15%</label>
+  <input type="radio" id="twenty" name="tips" value="twenty">
+  <label for="twenty">20%</label>
+  <button id="btn" onclick="calculator()" onmousedown="increase()">Send</button>
+  <p>Tip amount:</p>
+
+</div>
+<div id="result">
+  </div>
+    <script src = "app.js"></script>
+</body>
+</html>
